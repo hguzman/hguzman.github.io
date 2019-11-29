@@ -1,28 +1,60 @@
 ---
 layout: post
-title:  "Iintegrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
-categories: Javascript NodeJS
+title:  "Instrucciones para copiar archivos en S3"
+date:   2019-11-29 21:03:36 +0530
+categories: AWS
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+En la actualidad pago los servicios de Amason AWS para mantener el proyect fleteo.co en funcionamiento.
 
-```javascript
-const Razorpay = require('razorpay');
+Me encontre con la necesidad de usar el servicio S3 para mantener copia de mis archivos en la nube, pero no estaba familiarizado con los comandos necesarios para realizar dicha actividad.
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
+Para realizar la copia desde consola, instale el cliente
 
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
+
+```shell
+brew install awscli
+```
+Despues, solo resta usar los siguiente comandos:
+
+```shell
+# Crear Buckets
+aws s3 mb s3://lab01-storage
+
+# Listar Buckets
+aws s3 ls
+
+# Eliminar Buckets
+aws s3 rb s3://lab02-storage
+
+# Copiar archivos - local Remoto
+aws s3 cp foo.txt s3://lab01-storage
+
+# Copiar archivos - Remoto local
+aws s3 cp s3://lab01-storage/bar.txt bar.txt
+
+# Listar archivos
+aws s3 ls s3://lab01-storage
+
+# Mover archivo remoto
+aws s3 mv s3://lab01-storage/foo.txt s3://lab01-storage/bar.txt
+
+# Borrar archivo remoto
+aws s3 rm s3://lab01-storage/bar.txt
+
+# sincronizar carpeta
+aws s3 sync test/ s3://lab01-storage –recursive
+
+# Sincronizar borrando los archivos que ya no estan en el local
+aws s3 sync test s3://lab01-storage –delete
+
+# Copiar carpeta - local Remoto
+aws s3 cp foo.txt s3://lab01-storage –recursive –exclude "*.log"
+
+# Comando suado para Sincronizar.
+aws s3 sync . s3://hguzman-storage --delete
+
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Puede verificar la lista de comandos en el [sitio oficial][sitio-oficial] para más información.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[sitio-oficial]: https://docs.aws.amazon.com/cli/latest/reference/s3/cp.html
