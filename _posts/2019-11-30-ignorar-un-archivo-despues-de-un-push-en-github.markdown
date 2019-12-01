@@ -2,7 +2,7 @@
 layout: post
 title:  "Ignorar un archivo después de un push en GitHub"
 date:   2019-11-30 21:03:36 +0530
-categories: Herramientas
+categories: GitHub
 ---
 
 Estoy desarrollando un software con Ruby on Rails que maneja imagenes, me gusta usar GitHub para mantener mi codígo actualizado. Despues de varios commits y push me pude dar cuenta que en el archivo .gitignore NO incluí la linea para evitar que las imagenes de ejemplo fueran objeto de control de codigo.
