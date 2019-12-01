@@ -50,9 +50,15 @@ Para ver un tutorial en consola **vimtutorial**
 **wi** o **ea**
 
 ## Quitar el highlights despues de buscar
+
+```shell
 nmap <Leader><CR> :nohlsearch<cr>
+```
+## Realizar una busqueda en VIM
 
 
+```shell
+Vimgrep /búsqueda/g  **/*.rb
+```
 
-
-[canva]: https://www.canva.com
+Después usas: :cp antes :cn siguiente :copen abrir :ccl cerrar
