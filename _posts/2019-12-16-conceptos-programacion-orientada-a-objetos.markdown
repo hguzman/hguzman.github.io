@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Conceptos programación orientada a objetos"
-date:   2019-11-30 21:03:36 +0530
-categories: poo, java
+date:   2019-12-16 21:03:36 +0530
+categories: poo java
 ---
 
 En este documento he recopilado algunos conceptos sobre programación orientada a objetos, que puede ayudar a la comprensión de los mismos.
