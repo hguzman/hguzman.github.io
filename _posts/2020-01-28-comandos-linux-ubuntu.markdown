@@ -13,5 +13,22 @@ En esté documento he recopilado algunos comandos linux utilizados en ubuntu.
 
 El comando PWD en linux te devuelve la ruta en la que estas situado, se suele utilizar para saber en que parte de la estructura de directorios te encuentras.
 
-[![Polimorfismo](https://img.youtube.com/vi/RXcUTWczbag/0.jpg)](https://www.youtube.com/watch?v=RXcUTWczbag)
+### ls -l
 
+Lista el contenido de la carpeta actual
+
+### mkdir carpeta
+
+Crea una nueva carpeta en la ruta actual
+
+### cd
+
+Cambia de carpeta o directorio, se puede utilizar **cd ..** para regresar a la carpeta anterior
+
+### rm -rf carpeta
+
+Elimina carpeta en el directorio actual
+
+### chmod 777 archivo
+
+Cambia los permisos de un archivo o carpeta
