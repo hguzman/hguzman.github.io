@@ -18,3 +18,7 @@ Navegando en internet encontre un interesante video de como instalar la apliaci√
 Documento interesante sobre como iniciar con [Git y GitHub][git].
 
 [git]: https://www.uco.es/aulasoftwarelibre/wp-content/uploads/2015/11/git-cosfera-dia-1.pdf
+
+## Instalar Atom en ubuntu
+
+[![Atom](https://img.youtube.com/vi/xGU5sJtMdDw/0.jpg)](https://www.youtube.com/watch?v=xGU5sJtMdDw)
