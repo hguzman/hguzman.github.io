@@ -62,3 +62,7 @@ Vimgrep /búsqueda/g  **/*.rb
 ```
 
 Después usas: :cp antes :cn siguiente :copen abrir :ccl cerrar
+
+## Usar Vim desde cero
+
+Buscando un poco en internet para intentar explicar algunos muchahos sobre como usar VIM, encontre este enlace https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
