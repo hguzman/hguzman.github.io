@@ -67,4 +67,31 @@ Después usas: :cp antes :cn siguiente :copen abrir :ccl cerrar
 
 Buscando un poco en internet para intentar explicar algunos muchahos sobre como usar VIM, encontre este [enlace] https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
 
+## Utilizar "surroundings"
+
+Para trabajar con parentesis, corchetes y comillas, se debe utilizar el plugin [surround]
+
+1. Cambiar comillas dobles por comillas sencillas
+
+```shell
+cs"'
+```
+2. Quitar comillas
+```shell
+ds"
+```
+3. Encerrar una palabra
+```shell
+ysiw]
+```
+4. Encerrar toda una linea
+```shell
+yss)
+```
+5. Encerrar dentro de una etiqueta
+```shell
+ysiw<em>
+```
+
 [introcuccion]: https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
+[surround]: https://github.com/tpope/vim-surround
