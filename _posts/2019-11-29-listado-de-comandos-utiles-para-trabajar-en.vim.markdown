@@ -72,7 +72,6 @@ Buscando un poco en internet para intentar explicar algunos muchahos sobre como 
 Para trabajar con parentesis, corchetes y comillas, se debe utilizar el plugin [surround]
 
 1. Cambiar comillas dobles por comillas sencillas
-
 ```shell
 cs"'
 ```
@@ -91,6 +90,63 @@ yss)
 5. Encerrar dentro de una etiqueta
 ```shell
 ysiw<em>
+```
+
+## Copiar y pegar
+
+1. Copiar 5 lineas
+```shell
+5yy
+```
+2. Copiar hasta el final en una fila
+```shell
+y$
+```
+
+## Crear migracion Rails desde vim
+
+Para crear un archivo de migración desde vim se debe usar el siguiente comando:
+```shell
+:Emigration AddNombreToPersonas!
+```
+
+## Hablemos VIM
+
+1. Elimina la palabra donde esté el cursor (delete inside word):
+```shell
+diw
+```
+2. Cambia la frase en la que estas (change inside sentence):
+```shell
+cis
+```
+3. Cambia lo que haya hasta 'foo' (change search foo)
+```shell
+c/foo
+```
+4. Cambia todo lo que esta hasta la letra X:
+```shell
+ctX
+```
+5. Selecciona un párrafo (visual around paragraph):
+```shell
+vap
+```
+6. Borra una palabra
+```shell
+dw
+```
+7. Borrar lo que esta a la derecha
+```shell
+D
+```
+8. Borrar lo que este a la izquierda
+```shell
+d0
+```
+9. Borrar desde la linea actual hasta el final del fichero:
+```shell
+dG
 ```
 
 [introcuccion]: https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
