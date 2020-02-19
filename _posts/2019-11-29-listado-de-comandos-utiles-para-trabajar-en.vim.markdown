@@ -91,6 +91,10 @@ yss)
 ```shell
 ysiw<em>
 ```
+6. Cambiar tag en html sin cambiar atributos (Ejecutas el comando y mostrara en la parte de abajo el caracter '<' simplemente coloca el nuevo tag y enter)
+```shell
+cstt
+```
 
 ## Copiar y pegar
 
