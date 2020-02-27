@@ -153,5 +153,10 @@ d0
 dG
 ```
 
+## Listado de recursos para aprender VIM
+
+Comandos basicos para [manejo de VIM][comandos] 
+
 [introduccion]: https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
 [surround]: https://github.com/tpope/vim-surround
+[comandos]: https://vim.rtorr.com/lang/es_es
