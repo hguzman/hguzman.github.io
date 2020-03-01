@@ -21,4 +21,11 @@ Documento interesante sobre como iniciar con [Git y GitHub][git].
 
 ## Instalar Atom en ubuntu
 
+## Un blog con casos de uso reales
+Trabajando en el proyecto [fleteo][fleteo] encontre un [blog][blog] donde esplicaban algunos casos de uso reales cobre el uso de git y considero que esta muy bien explicado y puede servir a personas que aprenden sobre como usar git
+
 [![Atom](https://img.youtube.com/vi/xGU5sJtMdDw/0.jpg)](https://www.youtube.com/watch?v=xGU5sJtMdDw)
+
+
+[fleteo]: https://fleteo.co/
+[blog]: https://platzi.com/blog/flujo-de-trabajo-y-comandos-oscuros-de-git/
