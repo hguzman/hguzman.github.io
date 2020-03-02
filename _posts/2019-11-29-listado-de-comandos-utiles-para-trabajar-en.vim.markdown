@@ -158,7 +158,12 @@ dG
 Comandos basicos para [manejo de VIM][comandos] 
 [Video][video] que muestra la forma de utilizar Ultisnips
 
+## Utiizar el Quickfix
+
+En este enlace podemos ver como se debe usar el [QuickFix][quickfix]
+
 [introduccion]: https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
 [surround]: https://github.com/tpope/vim-surround
 [comandos]: https://vim.rtorr.com/lang/es_es
 [vieo]: http://vimcasts.org/episodes/meet-ultisnips/
+[quickfix]: https://stackoverflow.com/questions/1747091/how-do-you-use-vims-quickfix-feature
