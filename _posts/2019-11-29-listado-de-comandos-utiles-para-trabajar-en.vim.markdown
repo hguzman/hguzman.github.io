@@ -173,6 +173,24 @@ En este enlace podemos ver como se debe usar el [QuickFix][quickfix]
 
 Explicación: Con Ctrl+w t Nos ubicamos en la ventana de la parte superior izquierda y con K y H nos movemos
 
+## Grabar una macro
+- q (Con esto entramos en modo de grabar)
+- Una letra cualquiera, pongamos una a
+- Aparecerá "grabando"
+- /\.jpg\|\.gif  (estamos buscando la palabra .jpg o .gif)
+- Enter
+- dd (borramos la línea)
+- Esc
+- q (fin modo grabación)
+
+Ahora tenemos guardado en la letra 'a' la macro. La podemos ejecutar 1 vez tecleando:
+
+@a
+
+O mil veces:
+
+1000@a
+
 [introduccion]: https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
 [surround]: https://github.com/tpope/vim-surround
 [comandos]: https://vim.rtorr.com/lang/es_es
