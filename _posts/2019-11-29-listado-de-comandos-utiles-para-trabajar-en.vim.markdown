@@ -173,6 +173,11 @@ En este enlace podemos ver como se debe usar el [QuickFix][quickfix]
 
 Explicación: Con Ctrl+w t Nos ubicamos en la ventana de la parte superior izquierda y con K y H nos movemos
 
+## Copiar información dentro de )
+
+```yi)``` también se puede usar para borrar ```di]```
+En modo visual se puede usar ```vi)``` ó para seleccionar inclusive el ) ```va)```
+
 ## Grabar una macro
 - q (Con esto entramos en modo de grabar)
 - Una letra cualquiera, pongamos una a
