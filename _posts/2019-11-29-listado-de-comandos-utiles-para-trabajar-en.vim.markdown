@@ -178,6 +178,8 @@ Explicación: Con Ctrl+w t Nos ubicamos en la ventana de la parte superior izqui
 ```yi)``` también se puede usar para borrar ```di]```
 En modo visual se puede usar ```vi)``` ó para seleccionar inclusive el ) ```va)```
 
+Otros movimientos en modo visual pueden encoentrarse en el [enlace][enlace]
+
 ## Grabar una macro
 - q (Con esto entramos en modo de grabar)
 - Una letra cualquiera, pongamos una a
@@ -201,3 +203,4 @@ O mil veces:
 [comandos]: https://vim.rtorr.com/lang/es_es
 [vieo]: http://vimcasts.org/episodes/meet-ultisnips/
 [quickfix]: https://stackoverflow.com/questions/1747091/how-do-you-use-vims-quickfix-feature
+[enlace]: http://vimdoc.sourceforge.net/htmldoc/motion.html#object-select
