@@ -21,4 +21,12 @@ Encontre en internet estos ejemplos de como [utilizar I18n][i18n] en Ruby on Rai
 remove_index :completions, name: "index_completions_on_survey_id_and_user_id"
 ```
 
+## Generar tabla intermedia en relación muchos a muchos
+
+```
+rails g model Author name:string
+rails g model Book title:string
+rails g migration CreateJoinTableAuthorsBooks authors books
+```
+
 [i18n]: https://kapeli.com/cheat_sheets/Rails_i18n.docset/Contents/Resources/Documents/index
