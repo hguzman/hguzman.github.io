@@ -14,7 +14,7 @@ Para realizar la copia desde consola, instale el cliente
 ```shell
 brew install awscli
 ```
-Despues, solo resta usar los siguiente comandos:
+Despues, sólo resta usar los siguiente comandos:
 
 ```shell
 # Crear Buckets

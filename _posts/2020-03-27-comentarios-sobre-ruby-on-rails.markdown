@@ -13,9 +13,9 @@ Trabajando con Oscar Silvera, aprendí a usar el comando ```rails routes -c admi
 
 ## Ejemplos I18n
 
-Encontre en internet estos ejemplos de como [utilizar I18n][i18n] en Ruby on Rails 
+Encontré en internet estos ejemplos de como [utilizar I18n][i18n] en Ruby on Rails 
 
-## Remover un idice desde una migración
+## Remover un índice desde una migración
 
 ```
 remove_index :completions, name: "index_completions_on_survey_id_and_user_id"
