@@ -7,7 +7,7 @@ categories: so
 
 # Pasos para instalar ruby on rails sobre windows 10 a traves de wsl
 
-1. Verificar version de windows 10 que permita instalar wsl(subsystem linux for windows)
+1. Requisitos para instalar wsl(subsystem linux for windows), en windows 10.
 
 	Versión 16215.0 o Superior y Windows 10 de 64 bit.
 	
