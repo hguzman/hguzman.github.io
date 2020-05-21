@@ -96,6 +96,8 @@ categories: so
 		rbenv global 2.6.6
 	
 		ruby -v
+		
+		gem install bundler
 
 6. Configurar parametros de git en el bash de linux
 
