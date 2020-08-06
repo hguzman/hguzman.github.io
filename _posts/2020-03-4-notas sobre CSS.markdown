@@ -23,4 +23,9 @@ Revisando en youtube, encontré un gran video de como hacer una [galeria de foto
 
 [video][video] que muestra la construcción de una ventana modal para mostrar imagenes
 
+## Conceptos Básicos de flexbox
+
+Este es un enlace en español, en el cual podemos leer y comprender mediante ejemplos loc conceptos basicos del uso de [flexbox]
+
 [video]: https://www.youtube.com/watch?v=HDrFypgPd_0
+[flexbox]: https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_de_Flexbox
