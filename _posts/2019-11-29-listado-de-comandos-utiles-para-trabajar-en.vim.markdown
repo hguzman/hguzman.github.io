@@ -34,7 +34,7 @@ ci)
 
 Para paginar hacia abajo se usa (page down) **CTRL-D** y para moverse hacia arriba page up **CTRL-U**
 
-## Plegado de lineas de codigo
+## Plegado de líneas de código
 
 Para realizar el pegado se debe estar en modo visual y seleccionar el código que se desea plegar **zf** y para colocarlo como estaba se usa **za**
 
@@ -69,7 +69,7 @@ Buscando un poco en internet para intentar explicar algunos muchahos sobre como 
 
 ## Utilizar "surroundings"
 
-Para trabajar con parentesis, corchetes y comillas, se debe utilizar el plugin [surround]
+Para trabajar con paréntesis, corchetes y comillas, se debe utilizar el plugin [surround]
 
 1. Cambiar comillas dobles por comillas sencillas
 ```shell
@@ -83,7 +83,7 @@ ds"
 ```shell
 ysiw]
 ```
-4. Encerrar toda una linea
+4. Encerrar toda una línea
 ```shell
 yss)
 ```
@@ -107,7 +107,7 @@ cstt
 y$
 ```
 
-## Crear migracion Rails desde vim
+## Crear migración Rails desde vim
 
 Para crear un archivo de migración desde vim se debe usar el siguiente comando:
 ```shell
@@ -140,22 +140,22 @@ vap
 ```shell
 dw
 ```
-7. Borrar lo que esta a la derecha
+7. Borrar lo que está a la derecha
 ```shell
 D
 ```
-8. Borrar lo que este a la izquierda
+8. Borrar lo que esté a la izquierda
 ```shell
 d0
 ```
-9. Borrar desde la linea actual hasta el final del fichero:
+9. Borrar desde la línea actual hasta el final del fichero:
 ```shell
 dG
 ```
 
 ## Listado de recursos para aprender VIM
 
-Comandos basicos para [manejo de VIM][comandos] 
+Comandos básicos para [manejo de VIM][comandos] 
 [Video][video] que muestra la forma de utilizar Ultisnips
 
 ## Utiizar el Quickfix
@@ -173,8 +173,34 @@ En este enlace podemos ver como se debe usar el [QuickFix][quickfix]
 
 Explicación: Con Ctrl+w t Nos ubicamos en la ventana de la parte superior izquierda y con K y H nos movemos
 
+## Copiar información dentro de )
+
+```yi)``` también se puede usar para borrar ```di]```
+En modo visual se puede usar ```vi)``` ó para seleccionar inclusive el ) ```va)```
+
+Otros movimientos en modo visual pueden encoentrarse en el [enlace][enlace]
+
+## Grabar una macro
+- q (Con esto entramos en modo de grabar)
+- Una letra cualquiera, pongamos una a
+- Aparecerá "grabando"
+- /\.jpg\|\.gif  (estamos buscando la palabra .jpg o .gif)
+- Enter
+- dd (borramos la línea)
+- Esc
+- q (fin modo grabación)
+
+Ahora tenemos guardado en la letra 'a' la macro. La podemos ejecutar 1 vez tecleando:
+
+@a
+
+O mil veces:
+
+1000@a
+
 [introduccion]: https://hipertextual.com/archivo/2014/09/como-usar-vim-1-introduccion-a-vim/
 [surround]: https://github.com/tpope/vim-surround
 [comandos]: https://vim.rtorr.com/lang/es_es
 [vieo]: http://vimcasts.org/episodes/meet-ultisnips/
 [quickfix]: https://stackoverflow.com/questions/1747091/how-do-you-use-vims-quickfix-feature
+[enlace]: http://vimdoc.sourceforge.net/htmldoc/motion.html#object-select

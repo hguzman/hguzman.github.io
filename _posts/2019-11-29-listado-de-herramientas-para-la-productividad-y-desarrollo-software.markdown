@@ -4,7 +4,7 @@ title:  "Listado de herramientas para la productividad y desarrollo de software"
 date:   2019-11-29 21:03:36 +0530
 categories: Herramientas
 ---
-Muchas veces encuentro en internet paginas con enlaces a diferentes herramientas para la productividad y desarrollo de software, pero por descuido termino perdiendo la pagina u olvido el nombre es por eso que organizare una lista de las herramientas encontradas con un pequeña descripción.
+Muchas veces encuentro en internet páginas con enlaces a diferentes herramientas para la productividad y desarrollo de software, pero por descuido termino perdiendo la página u olvido el nombre es por eso que organizare una lista de las herramientas encontradas con un pequeña descripción.
 
 ## Canva
 [https://www.canva.com][canva]
