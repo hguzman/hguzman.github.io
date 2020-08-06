@@ -9,6 +9,6 @@ En este post quiero incluir algunas notas sobre el manejo de CSS.
 
 ## Ejemplos de menu con scroll usando flex
 
-Encontre un buen ejemplo de como usar flex para construir un [menu][menu] con scroll
+Encontre un buen ejemplo de como usar flex para construir un [menu][menu] con scroll.
 
 [menu]: https://iamsteve.me/blog/entry/using-flexbox-for-horizontal-scrolling-navigation
