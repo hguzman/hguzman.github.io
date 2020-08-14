@@ -31,8 +31,8 @@ rails g migration CreateJoinTableAuthorsBooks authors books
 
 ## Listado de gemas utiles para desarrollo
 
-[chartkick][chartkick] Esta gema permite generar graficos en una aplicación ruby on rails
-[groupdate][groupdate] Permite utilizar metodos para agrupar fechas
+* [chartkick][chartkick] Esta gema permite generar graficos en una aplicación ruby on rails
+* [groupdate][groupdate] Permite utilizar metodos para agrupar fechas
 
 [i18n]: https://kapeli.com/cheat_sheets/Rails_i18n.docset/Contents/Resources/Documents/index
 [chartkick]: https://chartkick.com/
