@@ -34,9 +34,6 @@ ci)
 
 Para paginar hacia abajo se usa (page down) **CTRL-D** y para moverse hacia arriba page up **CTRL-U**
 
-## Plegado de líneas de código
-
-Para realizar el pegado se debe estar en modo visual y seleccionar el código que se desea plegar **zf** y para colocarlo como estaba se usa **za**
 
 ## Comandos para comentar código con tcomment_vim
 
