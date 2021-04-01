@@ -64,35 +64,6 @@ Después usas: :cp antes :cn siguiente :copen abrir :ccl cerrar
 
 Buscando un poco en internet para intentar explicar algunos muchahos sobre como usar VIM, encontre este [enlace][introduccion]
 
-## Utilizar "surroundings"
-
-Para trabajar con paréntesis, corchetes y comillas, se debe utilizar el plugin [surround]
-
-1. Cambiar comillas dobles por comillas sencillas
-```shell
-cs"'
-```
-2. Quitar comillas
-```shell
-ds"
-```
-3. Encerrar una palabra
-```shell
-ysiw]
-```
-4. Encerrar toda una línea
-```shell
-yss)
-```
-5. Encerrar dentro de una etiqueta
-```shell
-ysiw<em>
-```
-6. Cambiar tag en html sin cambiar atributos (Ejecutas el comando y mostrara en la parte de abajo el caracter '<' simplemente coloca el nuevo tag y enter)
-```shell
-cstt
-```
-
 ## Copiar y pegar
 
 1. Copiar 5 lineas
