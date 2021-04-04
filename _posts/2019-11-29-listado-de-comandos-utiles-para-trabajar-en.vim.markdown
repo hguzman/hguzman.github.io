@@ -84,10 +84,6 @@ Para crear un archivo de migración desde vim se debe usar el siguiente comando:
 
 ## Hablemos VIM
 
-1. Elimina la palabra donde esté el cursor (delete inside word):
-```shell
-diw
-```
 2. Cambia la frase en la que estas (change inside sentence):
 ```shell
 cis
@@ -103,22 +99,6 @@ ctX
 5. Selecciona un párrafo (visual around paragraph):
 ```shell
 vap
-```
-6. Borra una palabra
-```shell
-dw
-```
-7. Borrar lo que está a la derecha
-```shell
-D
-```
-8. Borrar lo que esté a la izquierda
-```shell
-d0
-```
-9. Borrar desde la línea actual hasta el final del fichero:
-```shell
-dG
 ```
 
 ## Listado de recursos para aprender VIM
