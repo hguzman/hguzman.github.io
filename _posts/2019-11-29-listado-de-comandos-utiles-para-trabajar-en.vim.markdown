@@ -22,14 +22,6 @@ Muchas veces se requiere remplazar textos dentro de un archivo, el comando para 
 :6,10s/texto_a_sustituir/text_nuevo/gc
 ```
 
-## Remplazar información dentro de paréntesis
-
-Para remplazar la información dentro de () se usa la instrucción:
-
-
-```shell
-ci)
-```
 ## Realizar paginación en VIM
 
 Para paginar hacia abajo se usa (page down) **CTRL-D** y para moverse hacia arriba page up **CTRL-U**
