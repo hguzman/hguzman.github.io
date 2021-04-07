@@ -52,10 +52,6 @@ Vimgrep /búsqueda/g  **/*.rb
 
 Después usas: :cp antes :cn siguiente :copen abrir :ccl cerrar
 
-## Usar Vim desde cero
-
-Buscando un poco en internet para intentar explicar algunos muchahos sobre como usar VIM, encontre este [enlace][introduccion]
-
 ## Copiar y pegar
 
 1. Copiar 5 lineas
@@ -143,4 +139,3 @@ O mil veces:
 [comandos]: https://vim.rtorr.com/lang/es_es
 [vieo]: http://vimcasts.org/episodes/meet-ultisnips/
 [quickfix]: https://stackoverflow.com/questions/1747091/how-do-you-use-vims-quickfix-feature
-[enlace]: http://vimdoc.sourceforge.net/htmldoc/motion.html#object-select
