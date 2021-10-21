@@ -102,12 +102,6 @@ En este enlace podemos ver como se debe usar el [QuickFix][quickfix]
 
 `:set filetype?`
 
-## Cambiar dos ventanas de horizontal a vertical
-
-`Ctrl+w t Ctrl+w K`
-`Ctrl+w t Ctrl+w H`
-
-Explicación: Con Ctrl+w t Nos ubicamos en la ventana de la parte superior izquierda y con K y H nos movemos
 
 ## Copiar información dentro de )
 
